@@ -59,7 +59,7 @@ export default function Footer() {
           @github
         </a>
         <p style={{ fontSize: "0.5rem" }}>
-          If you haven't realized until now, this is not a serious thing. We are happy users of react-hook-form and love it. We just don't know why it's name how it is.
+          If you haven't realized until now, this is not a serious thing. We are happy users of react-hook-form and love it. We just don't know why it's named like that.
           It's a hook for forms, not a form for hooks!
         </p>
       </p>
