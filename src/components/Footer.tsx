@@ -41,7 +41,7 @@ export default function Footer() {
         </li>
       </ul>
       <p>
-        React Hook Form is an awesome {" "}
+        React Hook Form is an awesome Library by {" "}
         <a
           href="https://www.beekai.com/"
           target="_blank"
