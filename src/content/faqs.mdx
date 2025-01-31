@@ -4,15 +4,15 @@ description: Frequently asked questions
 sidebar: faqLinks
 ---
 
-## Performance of React Hook Form {#PerformanceofReactHookForm}
+## Performance of React Form Hook {#PerformanceofReactHookForm}
 
-Performance is one of the primary reasons why this library was created. React Hook Form relies on an uncontrolled form, which is the reason why the `register` function captures `ref` and the controlled component has its re-rendering scope with `Controller` or `useController`. This approach reduces the amount of re-rendering that occurs due to a user typing in an input or other form values changing at the root of your form or applications. Components mount to the page faster than controlled components because they have less overhead. As a reference, there is a quick comparison test that you can refer to at [this repo link](https://github.com/bluebill1049/react-hook-form-performance-compare).
+Performance is one of the primary reasons why this library was created. React Form Hook relies on an uncontrolled form, which is the reason why the `register` function captures `ref` and the controlled component has its re-rendering scope with `Controller` or `useController`. This approach reduces the amount of re-rendering that occurs due to a user typing in an input or other form values changing at the root of your form or applications. Components mount to the page faster than controlled components because they have less overhead. As a reference, there is a quick comparison test that you can refer to at [this repo link](https://github.com/bluebill1049/react-hook-form-performance-compare).
 
 ---
 
 ## How to create an accessible input error and message? {#Howtocreateanaccessibleinputerrorandmessage}
 
-React Hook Form is based on Uncontrolled Components, which gives you the ability to easily build an accessible custom form.
+React Form Hook is based on Uncontrolled Components, which gives you the ability to easily build an accessible custom form.
 _(For more information about Uncontrolled Components, read [Sharing State Between Components](https://react.dev/learn/sharing-state-between-components))_
 
 ```javascript copy
@@ -61,15 +61,15 @@ There are two methods to clear the form:
 
   This method does the same thing as clicking a form's reset button. It only clears `input/select/checkbox` values.
 
-- **React Hook Form API: `reset()`**
+- **React Form Hook API: `reset()`**
 
-  React Hook Form's `reset` method will reset all field values, and will also clear all `errors` within the form.
+  React Form Hook's `reset` method will reset all field values, and will also clear all `errors` within the form.
 
 ---
 
 ## How to initialize form values? {#Howtoinitializeformvalues}
 
-Being that React Hook Form relies on an uncontrolled form, you can specify a `defaultValue` or `defaultChecked` to an individual field. However, it is more common and recommended to initialize a form by passing `defaultValues` to `useForm`.
+Being that React Form Hook relies on an uncontrolled form, you can specify a `defaultValue` or `defaultChecked` to an individual field. However, it is more common and recommended to initialize a form by passing `defaultValues` to `useForm`.
 
 ```javascript copy
 function App() {
@@ -123,7 +123,7 @@ For async default values, you can use the following methods:
 
 ## How to share ref usage? {#Howtosharerefusage}
 
-React Hook Form needs a `ref` to collect the input value. However, you may want to use `ref` for other purposes (e.g. scroll into the view, or focus).
+React Form Hook needs a `ref` to collect the input value. However, you may want to use `ref` for other purposes (e.g. scroll into the view, or focus).
 
 <TabGroup buttonLabels={["TS", "JS"]}>
 
@@ -195,7 +195,7 @@ export default function App() {
 
 You can actually `register` an input without a `ref`. In fact, you can manually `setValue`, `setError` and `trigger`.
 
-**Note:** Because `ref` has not been registered, React Hook Form won't be able to register event listeners to the inputs. This means you will have to manually update value and error.
+**Note:** Because `ref` has not been registered, React Form Hook won't be able to register event listeners to the inputs. This means you will have to manually update value and error.
 
 ```javascript copy
 import React, { useEffect } from "react"
@@ -239,7 +239,7 @@ export default function App() {
 
 Make sure you are not using `value`. The correct property is `defaultValue`.
 
-React Hook Form is focusing on uncontrolled inputs, which means you don't need to change the input `value` via `state` via `onChange`. In fact, you don't need `value` at all. You only need to set `defaultValue` for the initial input value.
+React Form Hook is focusing on uncontrolled inputs, which means you don't need to change the input `value` via `state` via `onChange`. In fact, you don't need `value` at all. You only need to set `defaultValue` for the initial input value.
 
 ```javascript
 import { useForm } from "react-hook-form/dist/index.ie11" // V6
@@ -250,11 +250,11 @@ import { yupResolver } from "@hookform/resolvers/dist/ie11/yup"
 
 ---
 
-## React Hook Form, Formik or Redux Form? {#ReactHookFormFormikorReduxForm}
+## React Form Hook, Formik or Redux Form? {#ReactHookFormFormikorReduxForm}
 
 First of all, all libs try to solve the same problem: make the form building experience as easy as possible. However, there are some fundamental differences between these three. `react-hook-form` is built with uncontrolled inputs in mind and tries to provide your form with the best performance and least amount of re-renders possible. Additionallly, `react-hook-form` is built with React Hooks and used as a hook, which means there is no Component for you to import. Here are some of the detailed differences:
 
-|                    | React Hook Form                                                                                                                                                                                              | Formik                                                                 | Redux Form                                                                              |
+|                    | React Form Hook                                                                                                                                                                                              | Formik                                                                 | Redux Form                                                                              |
 | ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------- | --------------------------------------------------------------------------------------- |
 | **Component**      | [uncontrolled](https://reactjs.org/docs/uncontrolled-components.html) & [controlled](https://reactjs.org/docs/forms.html)                                                                                    | [controlled](https://reactjs.org/docs/forms.html)                      | [controlled](https://reactjs.org/docs/forms.html)                                       |
 | **Rendering**      | minimum re-render and optimise computation                                                                                                                                                                   | re-render according to local state changes (As you type in the input.) | re-render according to state management lib (Redux) changes (As you type in the input.) |
@@ -275,7 +275,7 @@ First of all, all libs try to solve the same problem: make the form building exp
 
 ## Why is default value not changing correctly with ternary operator? {#Whyisdefaultvaluenotchangingcorrectlywithternaryoperator}
 
-React Hook Form doesn't control your entire form and inputs, which is why React wouldn't recognize that the actual input has been exchanged or swapped. As a solution, you can resolve this problem by giving a unique `key` prop to your input. You can also read more about the key props from [this article written by Kent C. Dodds](https://kentcdodds.com/blog/understanding-reacts-key-prop).
+React Form Hook doesn't control your entire form and inputs, which is why React wouldn't recognize that the actual input has been exchanged or swapped. As a solution, you can resolve this problem by giving a unique `key` prop to your input. You can also read more about the key props from [this article written by Kent C. Dodds](https://kentcdodds.com/blog/understanding-reacts-key-prop).
 
 ```javascript sandbox="https://codesandbox.io/s/react-hook-form-faq-toggle-fields-3htr6" copy
 import React from "react"
@@ -300,7 +300,7 @@ export default function App() {
 
 ## How to work with modal or tab forms? {#Howtoworkwithmodalortabforms}
 
-It's important to understand that React Hook Form embraces native form behavior by storing input state inside each input (except custom `register` at `useEffect`). A common misconception is that input state remains with mounted or unmounted inputs. Such as when working with a modal or tab forms. Instead, the correct solution is to build a new form for your form inside each modal or tab and capture your submission data in local or global state and then do something with the combined data.
+It's important to understand that React Form Hook embraces native form behavior by storing input state inside each input (except custom `register` at `useEffect`). A common misconception is that input state remains with mounted or unmounted inputs. Such as when working with a modal or tab forms. Instead, the correct solution is to build a new form for your form inside each modal or tab and capture your submission data in local or global state and then do something with the combined data.
 
 - [Modal form and toggle inputs example](https://codesandbox.io/s/react-hook-form-modal-form-conditional-inputs-c7n0r)
 - [Tab form example](https://codesandbox.io/s/tabs-760h9)

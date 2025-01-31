@@ -7,7 +7,7 @@ export default {
   learnMore: {
     title: "Want to learn more?",
     description:
-      "Check out the React Hook Form documentation and learn all about the API.",
+      "Check out the React Form Hook documentation and learn all about the API.",
     buttonText: "Checkout API",
   },
   advanceUsage: {
@@ -17,7 +17,7 @@ export default {
   },
   needYourSupport: {
     title: "Thank you for your support",
-    description: `If you find React Hook Form to be useful in your project, please consider to star and support it.`,
+    description: `If you find React Form Hook to be useful in your project, please consider to star and support it.`,
     buttonText: `Star us on GitHub`,
   },
   codeExample: "Code Examples",

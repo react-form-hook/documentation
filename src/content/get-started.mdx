@@ -1,12 +1,12 @@
 ---
 title: Get Started
-description: Simple form validation with React Hook Form.
+description: Simple form validation with React Form Hook.
 sidebar: getStartedLinks
 ---
 
 ## Installation {#Quickstart}
 
-Installing React Hook Form only takes a single command and you're ready to roll.
+Installing React Form Hook only takes a single command and you're ready to roll.
 
 ```bash copy
 npm install react-hook-form
@@ -90,13 +90,13 @@ export default function App() {
 
 ## React Web Video Tutorial {#ReactWebVideoTutorial}
 
-This video tutorial illustrates the basic usage and concepts of React Hook Form.
+This video tutorial illustrates the basic usage and concepts of React Form Hook.
 
 <YouTube youTubeId="RkXv4AXXC_4" />
 
 ## Register fields {#Registerfields}
 
-One of the key concepts in React Hook Form is to **`register`** your component into the hook. This will make its value available for both the form validation and submission.
+One of the key concepts in React Form Hook is to **`register`** your component into the hook. This will make its value available for both the form validation and submission.
 
 **Note:** Each field is **required** to have a `name` as a key for the registration process.
 
@@ -164,7 +164,7 @@ export default function App() {
 
 ## Apply validation {#Applyvalidation}
 
-React Hook Form makes form validation easy by aligning with the existing [HTML standard for form validation](https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Form_validation).
+React Form Hook makes form validation easy by aligning with the existing [HTML standard for form validation](https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Form_validation).
 
 List of validation rules supported:
 
@@ -326,7 +326,7 @@ const App = () => {
 
 ## Integrating with UI libraries {#IntegratingwithUIlibraries}
 
-React Hook Form has made it easy to integrate with external UI component libraries. If the component doesn't expose input's `ref`, then you should use the [Controller](/docs#Controller) component, which will take care of the registration process.
+React Form Hook has made it easy to integrate with external UI component libraries. If the component doesn't expose input's `ref`, then you should use the [Controller](/docs#Controller) component, which will take care of the registration process.
 
 <TabGroup buttonLabels={["TS", "JS"]} >
 
@@ -601,7 +601,7 @@ connect(
 
 ## Handle errors {#Handleerrors}
 
-React Hook Form provides an `errors` object to show you the errors in the form. `errors`' type will return given validation constraints. The following example showcases a required validation rule.
+React Form Hook provides an `errors` object to show you the errors in the form. `errors`' type will return given validation constraints. The following example showcases a required validation rule.
 
 ```javascript copy sandbox="https://codesandbox.io/s/react-hook-form-v7-errormessage-multiple-error-messages-3ur2z"
 import { useForm } from "react-hook-form"
@@ -638,7 +638,7 @@ export default function App() {
 
 ## Integrating with services {#Integratingwithservices}
 
-To integrate React Hook Form with a service, you can use the library's built-in submission handling. `<Form />` component allow you to easily send form data to an API endpoint or other service. [Find out more about Form component](/docs/useform/form).
+To integrate React Form Hook with a service, you can use the library's built-in submission handling. `<Form />` component allow you to easily send form data to an API endpoint or other service. [Find out more about Form component](/docs/useform/form).
 
 ```javascript
 import { Form } from "react-hook-form"
@@ -676,7 +676,7 @@ We also support schema-based form validation with [Yup](https://github.com/jquen
 npm install @hookform/resolvers yup
 ```
 
-**Step 2:** Prepare your schema for validation and register inputs with React Hook Form.
+**Step 2:** Prepare your schema for validation and register inputs with React Form Hook.
 
 ```javascript copy sandbox="https://codesandbox.io/s/react-hook-form-v7-validationschema-rm35t"
 import { useForm } from "react-hook-form"
@@ -778,7 +778,7 @@ export default function App() {
 
 ## TypeScript {#TypeScript}
 
-React Hook Form is built with `TypeScript`, and you can define a `FormData` type to support form values.
+React Form Hook is built with `TypeScript`, and you can define a `FormData` type to support form values.
 
 ```typescript copy sandbox="https://codesandbox.io/s/react-hook-form-typescript-qwk7b"
 import * as React from "react"
@@ -822,7 +822,7 @@ export default function App() {
 
 ## Design and philosophy {#Designandphilosophy}
 
-React Hook Form's design and philosophy focus on user and developer experience. The library aims to provide users with a smoother interaction experience by fine-tuning the performance and improving accessibility. Some of the performance enhancements include:
+React Form Hook's design and philosophy focus on user and developer experience. The library aims to provide users with a smoother interaction experience by fine-tuning the performance and improving accessibility. Some of the performance enhancements include:
 
 - Introducing form state subscription model through the proxy
 - Avoiding unnecessary computation

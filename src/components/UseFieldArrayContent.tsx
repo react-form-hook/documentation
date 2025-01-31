@@ -203,7 +203,7 @@ append({ firstName: 'bill', lastName: 'luo' }); ✅`}
       <iframe
         width="100%"
         height="528"
-        title="react hook form - useFieldArray"
+        title="React Form Hook - useFieldArray"
         src="https://www.youtube.com/embed/4MrbfGSFY2A"
         frameBorder="0"
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"

@@ -1,18 +1,18 @@
 import typographyStyles from "../styles/typography.module.css"
 
 export default {
-  title: "React Hook Form - performant, flexible and extensible form library",
-  description: "React hook for form validation without the hassle",
+  title: "React Form Hook - performant, flexible and extensible form library",
+  description: "Just like React Form Hook, just with a name that makes sense",
 
   slogan:
-    "Performant, flexible and extensible forms with easy-to-use validation.",
+    "Performant, flexible and extensible forms with easy-to-use validation. Everything you know from React Form Hook, but with a name makes sense.",
   getStarted: "Get Started",
   demo: "Demo",
   findInteresting: {
     heading: "Ready to get started?",
     description: (
       <p className={typographyStyles.homeParagraph}>
-        Form handling doesn't have to be painful. React Hook Form will help you
+        Form handling doesn't have to be painful. React Form Hook will help you
         write less code while achieving better performance.
       </p>
     ),
@@ -28,7 +28,7 @@ export default {
     },
     {
       title: "Super Light",
-      description: `Package size matters. React Hook Form is a tiny library without any dependencies.`,
+      description: `Package size matters. React Form Hook is a tiny library without any dependencies.`,
     },
     {
       title: "Performance",
@@ -48,7 +48,7 @@ export default {
     title: "Less code. More performant",
     description: (
       <p id="codeComparison" className={typographyStyles.homeParagraph}>
-        React Hook Form reduces the amount of code you need to write while
+        React Form Hook reduces the amount of code you need to write while
         removing unnecessary re-renders. Now dive in and explore with the
         following example:
       </p>
@@ -81,7 +81,7 @@ export default {
     description: (
       <p className={typographyStyles.homeParagraph}>
         The following screenshots demonstrate how much faster component mounting
-        is with React Hook Form compared to others:
+        is with React Form Hook compared to others:
       </p>
     ),
     totalMount: "No. of mount(s)",
@@ -128,7 +128,7 @@ export default {
           </a>{" "}
           and etc. In fact, the goal is not only limited Yup as our external
           (schema) validation library. We would like to support many other
-          validation libraries to work with React Hook Form. You can even write
+          validation libraries to work with React Form Hook. You can even write
           your custom validation logic to validate.
         </p>
 

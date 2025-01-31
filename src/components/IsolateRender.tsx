@@ -28,7 +28,7 @@ const IsoLateInput = () => {
       play={play}
       render={({ style }) => (
         <input
-          aria-label="Uncontrolled Input re-render demo using React Hook Form"
+          aria-label="Uncontrolled Input re-render demo using React Form Hook"
           placeholder="Type here to see result..."
           style={style}
           onChange={() => {
@@ -117,7 +117,7 @@ function IsolateRender({ isIsolatePlay }: { isIsolatePlay: boolean }) {
             return (
               <section style={style} id="isolate">
                 <form className={formStyles.demoForm}>
-                  <h2> React Hook Form</h2>
+                  <h2> React Form Hook</h2>
                   <IsoLateInput />
                   <div className={styles.externalComponent}>
                     Child Component A

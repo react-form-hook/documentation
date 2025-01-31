@@ -2,7 +2,7 @@ import Head from "next/head"
 
 const site = {
   siteMetadata: {
-    title: `React Hook Form - Simple React forms validation`,
+    title: `React Form Hook - Simple React forms validation`,
     description: `Performant, flexible and extensible forms with easy-to-use validation.`,
     author: `@bluebill1049`,
     siteUrl: "https://www.react-hook-form.com",

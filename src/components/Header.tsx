@@ -73,7 +73,7 @@ export default function Header({
                 <svg className={styles.desktopLogo} viewBox="0 0 100 100">
                   {LogoSvg}
                 </svg>{" "}
-                React Hook Form
+                React Form Hook
               </h1>
             )}
           />

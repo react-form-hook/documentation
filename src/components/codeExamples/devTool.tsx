@@ -9,7 +9,7 @@ export default () => {
   return (
     <>
       <form onSubmit={handleSubmit(d => console.log(d))}>
-        <h1>React Hook Form DevTools</h1>
+        <h1>React Form Hook DevTools</h1>
 
         <label>Test</label>
         <input {...register("test")} />

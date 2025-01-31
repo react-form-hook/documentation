@@ -1,4 +1,4 @@
-# Contributing to `React Hook Form` (The Docs)
+# Contributing to `React Form Hook` (The Docs)
 
 As the creators and maintainers of this project, we want to ensure that `react-hook-form` lives and continues to grow and evolve. We would like to encourage everyone to help and support this library by contributing.
 
@@ -52,7 +52,7 @@ pnpm run start
 ## Coding style
 
 Please follow the coding style of the project.
-React Hook Form uses prettier.
+React Form Hook uses prettier.
 If possible, enable the prettier plugin in your editor to get real-time feedback. The formatting can be run manually with the following command:
 
 ```shellscript

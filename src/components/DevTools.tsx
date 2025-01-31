@@ -63,7 +63,7 @@ export default function DevTools() {
               <img
                 src="/images/dev-tool.png"
                 className={styles.devToolImg}
-                alt="React Hook Form DevTools"
+                alt="React Form Hook DevTools"
               />
             </div>
           )}
@@ -117,7 +117,7 @@ export default function DevTools() {
             <a
               className={buttonStyles.primaryButton}
               href="https://github.com/react-hook-form/react-hook-form-devtools"
-              title="React Hook Form DevTools Github repo"
+              title="React Form Hook DevTools Github repo"
               target="_blank"
               rel="noopener noreferrer"
             >

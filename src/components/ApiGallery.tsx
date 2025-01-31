@@ -58,7 +58,7 @@ export default function ApiGallery() {
         API
       </h1>
       <p className={typographyStyles.subHeading}>
-        React Hook Form's API overview
+        React Form Hook's API overview
       </p>
 
       <main className={styles.root}>

@@ -49,7 +49,7 @@ export const advancedLinks: Pages = [
 
 export const faqLinks: Pages = [
   {
-    name: "Performance of React Hook Form",
+    name: "Performance of React Form Hook",
     pathname: "#PerformanceofReactHookForm",
   },
   {
@@ -81,7 +81,7 @@ export const faqLinks: Pages = [
     pathname: "#Whyisthefirstkeystrokenotworking",
   },
   {
-    name: "React Hook Form, Formik or Redux Form?",
+    name: "React Form Hook, Formik or Redux Form?",
     pathname: "#ReactHookFormFormikorReduxForm",
   },
   {

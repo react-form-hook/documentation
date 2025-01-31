@@ -16,7 +16,7 @@ const Media = () => {
             Media
           </h1>
           <p className={typographyStyles.subHeading}>
-            The following are assets that represent React Hook Form.
+            The following are assets that represent React Form Hook.
           </p>
 
           <div className={mediaStyles.media}>

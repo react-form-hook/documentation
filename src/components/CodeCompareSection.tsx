@@ -50,7 +50,7 @@ function CodeCompareSection({
                 opacity: 1,
                 transform: "translateY(0)",
               }}
-              title="React Hook Form codesandbox demo"
+              title="React Form Hook codesandbox demo"
               allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
               sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
             />
@@ -66,7 +66,7 @@ function CodeCompareSection({
                   ...style,
                 }}
               >
-                <h2 className={typographyStyles.title}>React Hook Form</h2>
+                <h2 className={typographyStyles.title}>React Form Hook</h2>
                 <CodeArea rawData={reactHookFormCode} withOutCopy />
               </div>
             )}

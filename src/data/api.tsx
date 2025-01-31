@@ -452,7 +452,7 @@ const App = () => {
       <>
         <p>
           This method allows you to register an input or select element and
-          apply validation rules to React Hook Form. Validation rules are all
+          apply validation rules to React Form Hook. Validation rules are all
           based on the HTML standard and also allow for custom validation
           methods.
         </p>
@@ -2539,7 +2539,7 @@ setValue('notRegisteredInput', { test: '1', test2: '2' }); // ✅ sugar syntax t
     description: (
       <>
         <p>
-          React Hook Form embraces uncontrolled components and native inputs,
+          React Form Hook embraces uncontrolled components and native inputs,
           however it's hard to avoid working with external controlled component
           such as{" "}
           <a
@@ -2611,7 +2611,7 @@ setValue('notRegisteredInput', { test: '1', test2: '2' }); // ✅ sugar syntax t
       name: <>Name of the field.</>,
       errors: (
         <>
-          <code>errors</code> object from React Hook Form. Optional if you are
+          <code>errors</code> object from React Form Hook. Optional if you are
           using <code>FormProvider</code>.
         </>
       ),

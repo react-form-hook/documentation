@@ -2,7 +2,7 @@ import typographyStyles from "../styles/typography.module.css"
 
 export default {
   title: "DevTools",
-  description: "React Hook Form DevTools to help debug forms with validation.",
+  description: "React Form Hook DevTools to help debug forms with validation.",
   install: "Installation",
   step1: (
     <>
@@ -55,7 +55,7 @@ export default {
     },
     {
       description:
-        "React Hook Form focuses on delivering a great experience in terms of building forms with React. This tool will help debug your forms.",
+        "React Form Hook focuses on delivering a great experience in terms of building forms with React. This tool will help debug your forms.",
     },
     {
       title: "Open-Source",

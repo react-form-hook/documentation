@@ -3,7 +3,7 @@ import styles from "./sponsorsList.module.css"
 export function SponsorsList() {
   return (
     <div className={styles.root}>
-      <p className={styles.heading}>SUPPORTED AND BACKED BY</p>
+      {/* <p className={styles.heading}>SUPPORTED AND BACKED BY</p>
 
       <div className={styles.logoGroup}>
         <a
@@ -48,7 +48,7 @@ export function SponsorsList() {
             alt="sanity io"
           />
         </a>
-      </div>
+      </div> */}
     </div>
   )
 }

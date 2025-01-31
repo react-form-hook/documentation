@@ -18,7 +18,7 @@ const Checkboxes = ({ options, control, name }) => {
             // update checkbox value
             valueCopy[index] = e.target.checked ? e.target.value : null;
 
-            // send data to react hook form
+            // send data to React Form Hook
             field.onChange(valueCopy);
 
             // update local state

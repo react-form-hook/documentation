@@ -127,7 +127,7 @@ function HomePage() {
 
             <h3>Javascript Rising Star</h3>
             <p>
-              React Hook Form have matured and evolved around hooks. Simplifies
+              React Form Hook have matured and evolved around hooks. Simplifies
               a piece of React development.
             </p>
           </div>

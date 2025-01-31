@@ -41,7 +41,7 @@ export default function Footer() {
         </li>
       </ul>
       <p>
-        A project by{" "}
+        React Form Hook is an awesome {" "}
         <a
           href="https://www.beekai.com/"
           target="_blank"
@@ -50,7 +50,7 @@ export default function Footer() {
         >
           <b>BEEKAI</b>
         </a>{" "}
-        | Please support us by leaving a ★{" "}
+        | Please support them by leaving a ★{" "}
         <a
           href="https://github.com/react-hook-form/react-hook-form"
           target="_blank"
@@ -59,29 +59,6 @@ export default function Footer() {
           @github
         </a>
       </p>
-      <div>
-        <p className={styles.heading}>SUPPORTED AND BACKED BY</p>
-        <div className={styles.logoGroup}>
-          <p
-            style={{
-              display: "inline-block",
-              background: "white",
-              color: "black",
-              padding: "6px 20px",
-              borderRadius: 4,
-            }}
-          >
-            <a
-              href="https://vercel.com/"
-              target="_blank"
-              rel="noreferrer"
-              className={styles.link}
-            >
-              Powered by ▲ <b>Vercel</b>
-            </a>
-          </p>
-        </div>
-      </div>
     </footer>
   )
 }

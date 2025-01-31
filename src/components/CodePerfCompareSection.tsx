@@ -21,7 +21,7 @@ function CodePerfCompareSection({ isPlayRender }: { isPlayRender: boolean }) {
           marginTop: 40,
         }}
       >
-        React Hook Form
+        React Form Hook
       </h2>
       <div className={styles.imgSection}>
         <ul>
@@ -36,7 +36,7 @@ function CodePerfCompareSection({ isPlayRender }: { isPlayRender: boolean }) {
           src="/images/hookform.min.png"
           placeholder={false}
           height={163}
-          alt="React Hook Form performance"
+          alt="React Form Hook performance"
         />
       </div>
 

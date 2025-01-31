@@ -2,55 +2,55 @@ export default {
   article: [
     {
       type: "article",
-      title: "How to Create and Validate Forms With React Hook Form",
+      title: "How to Create and Validate Forms With React Form Hook",
       url: "https://catalins.tech/react-forms-with-react-hook-form/",
       authorUrl: "https://catalins.tech/",
       author: "Catalin Pit",
       description:
-        "The article shows how to build and validate forms using the React Hook Form library.",
+        "The article shows how to build and validate forms using the React Form Hook library.",
       createdDateTime:
         "Tue Mar 28 2023 16:55:46 GMT+1000 (Australian Eastern Standard Time)",
       version: "7",
     },
     {
       type: "article",
-      title: "Powerful Form Validation With React Hook Form and Zod",
+      title: "Powerful Form Validation With React Form Hook and Zod",
       url: "https://catalins.tech/form-validation-with-react-hook-form-zod-typescript/",
       authorUrl: "https://catalins.tech/",
       author: "Catalin Pit",
       description:
-        "This article demonstrates how to use React Hook Form, Zod, and TypeScript to build powerful form validation in a React application. It covers defining a Zod schema, inferring TypeScript types, integrating the schema with React Hook Form, and adding advanced validation rules.",
+        "This article demonstrates how to use React Form Hook, Zod, and TypeScript to build powerful form validation in a React application. It covers defining a Zod schema, inferring TypeScript types, integrating the schema with React Form Hook, and adding advanced validation rules.",
       createdDateTime:
         "Thu Apr 06 2023 18:40:16 GMT+0200 (Eastern European Standard Time)",
       version: "7",
     },
     {
       type: "article",
-      title: "Managing forms with React Hook Form",
+      title: "Managing forms with React Form Hook",
       url: "https://claritydev.net/blog/managing-forms-with-react-hook-form",
       authorUrl: "https://claritydev.net",
       author: "Alex Khomenko",
       description:
-        "In this post, we talk about the basics of React Hook Form and learn how to use it to simplify form management in your React applications.",
+        "In this post, we talk about the basics of React Form Hook and learn how to use it to simplify form management in your React applications.",
       createdDateTime:
         "Sun Mar 26 2023 02:00:00 GMT+0200 (Eastern European Standard Time)",
       version: "7",
     },
     {
       type: "article",
-      title: "Testing React Hook Form With React Testing Library",
+      title: "Testing React Form Hook With React Testing Library",
       url: "https://claritydev.net/blog/testing-react-hook-form-with-react-testing-library",
       authorUrl: "https://claritydev.net",
       author: "Alex Khomenko",
       description:
-        "In this post, we'll explore how to use React Testing Library to test React Hook Form components.",
+        "In this post, we'll explore how to use React Testing Library to test React Form Hook components.",
       createdDateTime:
         "Sun Mar 28 2023 02:00:00 GMT+0200 (Eastern European Standard Time)",
       version: "7",
     },
     {
       type: "article",
-      title: "Build a Multistep Form With React Hook Form",
+      title: "Build a Multistep Form With React Form Hook",
       url: "https://claritydev.net/blog/build-a-multistep-form-with-react-hook-form",
       authorUrl: "https://claritydev.net",
       author: "Alex Khomenko",
@@ -63,7 +63,7 @@ export default {
     {
       type: "article",
       title:
-        "React Hook Form ライブラリの使い方！フォームのバリデーションを実装しよう【TypeScript】",
+        "React Form Hook ライブラリの使い方！フォームのバリデーションを実装しよう【TypeScript】",
       url: "https://xn--eckhu0e2b3a6i6dsh.net/react-hook-form/",
       authorUrl: "https://twitter.com/shohei__creator",
       author: "shohei",
@@ -88,30 +88,30 @@ export default {
     },
     {
       type: "article",
-      title: "What’s New in React Hook Form V7",
+      title: "What’s New in React Form Hook V7",
       url: "https://blog.logrocket.com/whats-new-in-react-hook-form-v7/",
       authorUrl: "https://blog.logrocket.com/author/chinwikemaduabuchi/",
       author: "Chinwike Maduabuchi",
       description:
-        "React Hook Form V7 supports strictly typed forms with the help of TypeScript. See what else is new in the most recent release.",
+        "React Form Hook V7 supports strictly typed forms with the help of TypeScript. See what else is new in the most recent release.",
       createdDateTime:
         "Tue May 04 2021 20:40:50 GMT+1000 (Australian Eastern Standard Time)",
       version: "7",
     },
     {
       type: "article",
-      title: "React Hook Form 7 - Form Validation Example",
+      title: "React Form Hook 7 - Form Validation Example",
       url: "https://jasonwatmore.com/post/2021/04/21/react-hook-form-7-form-validation-example",
       authorUrl: "https://jasonwatmore.com/",
       author: "Jason Watmore",
-      description: "Example built with React Hook Form 7.2.1 and React 17.0.2",
+      description: "Example built with React Form Hook 7.2.1 and React 17.0.2",
       createdDateTime:
         "Wed Apr 21 2021 17:03:23 GMT+1000 (Australian Eastern Standard Time)",
       version: "7",
     },
     {
       type: "article",
-      title: "Using React Hook Form with Material-UI Components",
+      title: "Using React Form Hook with Material-UI Components",
       url: "https://levelup.gitconnected.com/using-react-hook-form-with-material-ui-components-ba42ace9507a",
       authorUrl: "https://chadmuro.medium.com/",
       author: "Chad Murobayashi",
@@ -123,19 +123,19 @@ export default {
     },
     {
       type: "article",
-      title: "Turn Anything Into A Form Field With React Hook Form Controller",
+      title: "Turn Anything Into A Form Field With React Form Hook Controller",
       url: "https://dev.to/elyngved/turn-anything-into-a-form-field-with-react-hook-form-controller-42c",
       authorUrl: "https://dev.to/elyngved",
       author: "Erik Lyngved",
       description:
-        "React Hook Form has quickly become my favorite library to wrangle forms of all shapes and sizes, mainly for its great developer experience.",
+        "React Form Hook has quickly become my favorite library to wrangle forms of all shapes and sizes, mainly for its great developer experience.",
       createdDateTime:
         "Mon Apr 12 2021 12:12:54 GMT+1000 (Australian Eastern Standard Time)",
       version: "7",
     },
     {
       type: "article",
-      title: "How to Use React Hook Form with TypeScript",
+      title: "How to Use React Form Hook with TypeScript",
       url: "https://javascript.plainenglish.io/how-to-use-react-hook-form-with-typescript-2cf597c0c45f",
       authorUrl: "https://56faisal.medium.com/",
       author: "Mohammad Faisal",
@@ -146,7 +146,7 @@ export default {
     },
     {
       type: "article",
-      title: "React Hook Formのアップデート内容 - Version 7",
+      title: "React Form Hookのアップデート内容 - Version 7",
       url: "https://qiita.com/bluebill1049/items/f838bae7f3ed29e81fff",
       authorUrl: "https://qiita.com/bluebill1049",
       createdDateTime:
@@ -156,7 +156,7 @@ export default {
     },
     {
       type: "article",
-      title: "What's new in React Hook Form's resolvers V2",
+      title: "What's new in React Form Hook's resolvers V2",
       url: "https://dev.to/jorisre/what-s-new-in-react-hook-form-s-resolvers-v2-2a5o",
       authorUrl: "https://dev.to/jorisre",
       author: "Joris",
@@ -164,7 +164,7 @@ export default {
     },
     {
       type: "article",
-      title: "What's coming in React Hook Form - Version 7",
+      title: "What's coming in React Form Hook - Version 7",
       url: "https://dev.to/bluebill1049/what-s-coming-in-react-hook-form-version-7-4bfa",
       authorUrl: "https://dev.to/bluebill1049",
       author: "Bill Luo",
@@ -176,7 +176,7 @@ export default {
     {
       type: "article",
       url: "https://dnizfor.medium.com/react-hook-form-i%CC%87%C3%A7in-kapsaml%C4%B1-bir-rehber-73a65fc16a8f",
-      title: "React Hook Form İçin Kapsamlı Bir Rehber",
+      title: "React Form Hook İçin Kapsamlı Bir Rehber",
       author: "Deniz Aslan",
       authorUrl: "https://www.linkedin.com/in/aslandeniz",
       description: "",
@@ -186,7 +186,7 @@ export default {
       type: "article",
       url: "https://blog.logrocket.com/react-hook-form-vs-formik-a-technical-and-performance-comparison/",
       title:
-        "React Hook Form vs. Formik: A technical and performance comparison",
+        "React Form Hook vs. Formik: A technical and performance comparison",
       author: "Siegfried Grimbeek",
       authorUrl: "https://blog.logrocket.com/author/siegfriedgrimbeek/",
       version: "6",
@@ -203,7 +203,7 @@ export default {
     {
       type: "article",
       url: "https://blog.bitsrc.io/react-hook-form-an-elegant-solution-to-forms-in-react-4db64505b0cd",
-      title: "React Hook Form — An Elegant Solution to Forms in React",
+      title: "React Form Hook — An Elegant Solution to Forms in React",
       author: "Mahesh Haldar",
       authorUrl: "https://blog.bitsrc.io/@haldar.mahesh",
       version: "6",
@@ -219,7 +219,7 @@ export default {
     {
       type: "article",
       url: "https://seifi.org/reactjs/build-a-contact-form-in-gatsby-part-2-react-hook-form.html",
-      title: "Build a contact form in Gatsby - Part 2 - React Hook Form",
+      title: "Build a contact form in Gatsby - Part 2 - React Form Hook",
       author: "Joe Seifi",
       authorUrl: "https://seifi.org/about/",
       version: "6",
@@ -227,7 +227,7 @@ export default {
     {
       type: "article",
       url: "https://dev.to/matfrana/react-hook-form-the-best-form-library-1o1l",
-      title: "React Hook Form: the best form library?",
+      title: "React Form Hook: the best form library?",
       author: "Matteo Frana",
       authorUrl: "https://twitter.com/matfrana",
       version: "6",
@@ -243,7 +243,7 @@ export default {
     {
       type: "article",
       url: "https://itnext.io/is-react-hook-form-the-future-57c6f94a2665",
-      title: "Is React Hook Form the future?",
+      title: "Is React Form Hook the future?",
       authorUrl: "https://itnext.io/@gapur.kassym",
       author: "Gapur Kassym",
       version: "6",
@@ -251,7 +251,7 @@ export default {
     {
       type: "article",
       url: "https://medium.com/@angular_evan/yup-you-should-use-react-hook-form-9864d8bc80ef",
-      title: "Yup, you should use React Hook Form",
+      title: "Yup, you should use React Form Hook",
       authorUrl: "https://medium.com/@angular_evan",
       author: "Evan Williams",
       version: "6",
@@ -267,7 +267,7 @@ export default {
     {
       type: "article",
       url: "https://nordschool.com/react-hook-form/",
-      title: "Pain-Free Forms with React Hook Form",
+      title: "Pain-Free Forms with React Form Hook",
       authorUrl: "https://mansour.blog/about",
       author: "Ahmed Mansour",
       version: "6",
@@ -275,7 +275,7 @@ export default {
     {
       type: "article",
       url: "https://cloud.tencent.com/developer/article/1520536",
-      title: "React Hook form 表单校验",
+      title: "React Form Hook 表单校验",
       authorUrl: "https://cloud.tencent.com/developer/user/5206638",
       author: "我已经洗完澡了",
       version: "6",
@@ -283,7 +283,7 @@ export default {
     {
       type: "article",
       url: "https://medium.com/the-existing/%E0%B8%97%E0%B8%B3-multi-step-forms-%E0%B8%94%E0%B9%89%E0%B8%A7%E0%B8%A2-react-hook-form-%E0%B9%81%E0%B8%A5%E0%B8%B0-usecontext-b3c2137836e2",
-      title: "ทำ Multi-Step Forms ด้วย React Hook Form และ useContext",
+      title: "ทำ Multi-Step Forms ด้วย React Form Hook และ useContext",
       authorUrl: "https://medium.com/@jidapapattanang",
       author: "Jidapa Pattanang",
       version: "6",
@@ -323,7 +323,7 @@ export default {
     {
       type: "article",
       url: "https://qiita.com/yhosok/items/7dd1963ee7138ec0642f",
-      title: "React Hook Form 入門",
+      title: "React Form Hook 入門",
       authorUrl: "https://qiita.com/yhosok",
       author: "Yasunori Hosokawa",
       version: "6",
@@ -347,7 +347,7 @@ export default {
     {
       type: "article",
       url: "https://dev.to/aaronksaunders/using-react-hook-form-with-ionic-react-components-2aab",
-      title: "Using React Hook Form with Ionic React Components",
+      title: "Using React Form Hook with Ionic React Components",
       authorUrl: "https://dev.to/aaronksaunders",
       author: "Aaron K Saunders",
       version: "6",
@@ -355,7 +355,7 @@ export default {
     {
       type: "article",
       url: "https://thewebdev.info/2020/04/29/react-hook-form-a-good-react-form-validation-library/",
-      title: "React Hook Form – a Good React Form Validation Library",
+      title: "React Form Hook – a Good React Form Validation Library",
       authorUrl: "https://thewebdev.info/author/admin/",
       author: "John Au-Yeung",
       version: "6",
@@ -363,7 +363,7 @@ export default {
     {
       type: "article",
       url: "https://www.carlrippon.com/getting-started-with-react-hook-form-with-typeScript/",
-      title: "Getting started with React Hook Form with TypeScript",
+      title: "Getting started with React Form Hook with TypeScript",
       authorUrl: "https://www.carlrippon.com/",
       author: "Carl Rippon",
       version: "6",
@@ -372,7 +372,7 @@ export default {
       type: "article",
       url: "https://medium.com/popcodemobile/criando-formul%C3%A1rios-em-react-native-utilizando-react-hook-form-e-yup-55ee36563063",
       title:
-        "Criando formulários em React Native utilizando React Hook Form e Yup",
+        "Criando formulários em React Native utilizando React Form Hook e Yup",
       authorUrl: "https://medium.com/@gabrielkabral",
       author: "Gabriel Menezes",
       version: "6",
@@ -380,7 +380,7 @@ export default {
     {
       type: "article",
       url: "https://medium.com/@austinhowardtech/ionic-react-firebase-react-hook-form-14dfbf72078a",
-      title: "Ionic React + Firebase: React Hook Form",
+      title: "Ionic React + Firebase: React Form Hook",
       authorUrl: "https://medium.com/@austinhowardtech",
       author: "Austin Howard Tech",
       version: "6",
@@ -404,19 +404,19 @@ export default {
     {
       type: "article",
       url: "https://blog.bitsrc.io/react-hook-form-vs-formik-form-builder-library-for-react-23ed559fdae",
-      title: "React Hook Form VS Formik",
+      title: "React Form Hook VS Formik",
       authorUrl: "https://blog.bitsrc.io/@nathansebhastian",
       author: "Nathan Sebhastian",
       version: "6",
     },
     {
       type: "article",
-      title: "React: Forms and Validations with React Hook Form",
+      title: "React: Forms and Validations with React Form Hook",
       url: "https://www.webdevdrops.com/en/react-forms-and-validations-react-hook-form",
       authorUrl: "https://www.webdevdrops.com/",
       author: "Douglas Matoso",
       description:
-        "Hey, folks! In this post I will show you how to work with forms and validation in React, in a simple and efficient way, using the React Hook Form library.",
+        "Hey, folks! In this post I will show you how to work with forms and validation in React, in a simple and efficient way, using the React Form Hook library.",
       version: "6",
     },
     {
@@ -450,7 +450,7 @@ export default {
     {
       type: "article",
       title:
-        "Building a simple login form with Material UI and React Hook Form",
+        "Building a simple login form with Material UI and React Form Hook",
       url: "https://www.williamkurniawan.com/blog/building-a-simple-login-form-with-material-ui-and-react-hook-form",
       authorUrl: "https://www.williamkurniawan.com",
       author: "William Kurniawan",
@@ -468,7 +468,7 @@ export default {
     },
     {
       type: "article",
-      title: "How to use React Hook Form with Material UI",
+      title: "How to use React Form Hook with Material UI",
       url: "https://seanconnolly.dev/react-hook-form-material-ui",
       authorUrl: "https://twitter.com/seanconnollydev",
       author: "Sean Connolly",
@@ -477,7 +477,7 @@ export default {
     },
     {
       type: "article",
-      title: "フォームバリデーションを体験 - React Hook Form 入門",
+      title: "フォームバリデーションを体験 - React Form Hook 入門",
       url: "https://zenn.dev/izuchy/articles/70f124d29c41e7cebd2c",
       authorUrl: "https://twitter.com/izuchy",
       author: "izuchy / IMPATH",
@@ -487,7 +487,7 @@ export default {
     {
       type: "article",
       title:
-        "【React Native + Expo】React Hook Formでバリデーションを簡易実装してみる",
+        "【React Native + Expo】React Form Hookでバリデーションを簡易実装してみる",
       url: "https://qiita.com/garmi/items/9d20c7d4181bc0ad28fe",
       authorUrl: "https://twitter.com/garmigarmi",
       author: "がーみ",
@@ -496,7 +496,7 @@ export default {
     },
     {
       type: "article",
-      title: "How to Create and Handle NextJS form with React Hook Form",
+      title: "How to Create and Handle NextJS form with React Form Hook",
       url: "https://creativedesignsguru.com/how-to-create-and-handle-nextjs-form-with-react-hook-form/",
       authorUrl: "https://creativedesignsguru.com/blog/",
       author: "Creative Designs Guru",
@@ -536,14 +536,14 @@ export default {
     {
       type: "video",
       title:
-        "Working with Forms in React (React Hook Form, Zod & Component Libraries)",
+        "Working with Forms in React (React Form Hook, Zod & Component Libraries)",
       url: "https://www.youtube.com/playlist?list=PLeO8M-2wYaaV5vh2lRWV7qt_-Io8agaf-",
       authorUrl: "https://www.youtube.com/@vlad.nicula",
       author: "Vlad Nicula",
       createdDateTime:
         "Mon Jan 16 2023 22:13:15 GMT+1000 (Australian Eastern Standard Time)",
       description:
-        "A series of videos on how to work with forms in React focusing on React Hook Form, Zod, and component libraries.",
+        "A series of videos on how to work with forms in React focusing on React Form Hook, Zod, and component libraries.",
       version: "7",
     },
     {
@@ -573,7 +573,7 @@ export default {
     {
       type: "video",
       title:
-        "React Hook Form V7 with Material UI and Typescript Tutorial | Part 5 -- Testing",
+        "React Form Hook V7 with Material UI and Typescript Tutorial | Part 5 -- Testing",
       url: "https://www.youtube.com/watch?v=Cz9en-hoKcw",
       authorUrl: "https://www.youtube.com/channel/UC3QP9uZ1UgqsZleXXZKs8cw",
       author: "Leo Roese",
@@ -586,7 +586,7 @@ export default {
     {
       type: "video",
       title:
-        "React Hook Form V7 with Material UI and Typescript Tutorial | Part 4 -- Complex Forms with State",
+        "React Form Hook V7 with Material UI and Typescript Tutorial | Part 4 -- Complex Forms with State",
       url: "https://www.youtube.com/watch?v=4rA3r1MJJwE",
       authorUrl: "https://www.youtube.com/channel/UC3QP9uZ1UgqsZleXXZKs8cw",
       author: "Leo Roese",
@@ -599,7 +599,7 @@ export default {
     {
       type: "video",
       title:
-        "React Hook Form V7 with Material UI and Typescript Tutorial | Part 3 -- useFieldArray",
+        "React Form Hook V7 with Material UI and Typescript Tutorial | Part 3 -- useFieldArray",
       url: "https://www.youtube.com/watch?v=3YvJg_eNyBc",
       authorUrl: "https://www.youtube.com/channel/UC3QP9uZ1UgqsZleXXZKs8cw",
       author: "Leo Roese",
@@ -612,12 +612,12 @@ export default {
     {
       type: "video",
       title:
-        "React Hook Form V7 with Material UI and Typescript Tutorial | Part 2 -- FormProvider",
+        "React Form Hook V7 with Material UI and Typescript Tutorial | Part 2 -- FormProvider",
       url: "https://www.youtube.com/watch?v=nt8NTuUbuG4",
       authorUrl: "https://www.youtube.com/channel/UC3QP9uZ1UgqsZleXXZKs8cw",
       author: "Leo Roese",
       description:
-        "In this video, I will help in understanding FormProvider and useFormContext from React Hook Form and how to use it as well as implications.",
+        "In this video, I will help in understanding FormProvider and useFormContext from React Form Hook and how to use it as well as implications.",
       createdDateTime:
         "Mon Aug 16 2021 22:11:25 GMT+1000 (Australian Eastern Standard Time)",
       version: "7",
@@ -625,7 +625,7 @@ export default {
     {
       type: "video",
       title:
-        "React Hook Form V7 with Material UI and Typescript Tutorial | Part 1 -- Setup",
+        "React Form Hook V7 with Material UI and Typescript Tutorial | Part 1 -- Setup",
       url: "https://www.youtube.com/watch?v=nt8NTuUbuG4",
       authorUrl: "https://www.youtube.com/channel/UC3QP9uZ1UgqsZleXXZKs8cw",
       author: "Leo Roese",
@@ -637,7 +637,7 @@ export default {
     },
     {
       type: "video",
-      title: "React Hook Form V7 (Preview)",
+      title: "React Form Hook V7 (Preview)",
       url: "https://www.youtube.com/watch?v=ZBfBiwyR2HY",
       authorUrl: "https://www.youtube.com/channel/UC9qgXurGpQzePCx928oyIZg",
       author: "Bill Luo",
@@ -649,7 +649,7 @@ export default {
     },
     {
       type: "video",
-      title: "React Hook Form V7 - Get Started",
+      title: "React Form Hook V7 - Get Started",
       url: "https://www.youtube.com/watch?v=DN8v7_RbVlc",
       authorUrl: "https://www.youtube.com/channel/UC9qgXurGpQzePCx928oyIZg",
       author: "Bill Luo",
@@ -661,7 +661,7 @@ export default {
     },
     {
       type: "video",
-      title: "React Hook Form - custom hook for forms validation.",
+      title: "React Form Hook - custom hook for forms validation.",
       url: "https://www.youtube.com/watch?v=-mFXqOaqgZk",
       authorUrl: "https://www.youtube.com/channel/UC9qgXurGpQzePCx928oyIZg",
       author: "Bill Luo",
@@ -671,26 +671,26 @@ export default {
     },
     {
       type: "video",
-      title: "React Hook Form - persist multiple steps forms (Form Wizard).",
+      title: "React Form Hook - persist multiple steps forms (Form Wizard).",
       url: "https://www.youtube.com/watch?v=CeAkxVwsyMU",
       authorUrl: "https://www.youtube.com/channel/UC9qgXurGpQzePCx928oyIZg",
       author: "Bill Luo",
-      description: "Building persist multiple steps form with React Hook Form.",
+      description: "Building persist multiple steps form with React Form Hook.",
       version: "6",
     },
     {
       type: "video",
-      title: "React Hook Form Tutorial | Why it's Useful",
+      title: "React Form Hook Tutorial | Why it's Useful",
       url: "https://www.youtube.com/watch?v=PcrrJ0BOFGw",
       authorUrl: "https://www.youtube.com/user/Redhwann1",
       author: "Redhwan Nacef",
       description:
-        "I feel like forms in react can get quite complicated. React hook form makes it slightly easier. This is a tutorial on how and why to use react hook form.",
+        "I feel like forms in react can get quite complicated. React Form Hook makes it slightly easier. This is a tutorial on how and why to use React Form Hook.",
       version: "6",
     },
     {
       type: "video",
-      title: "React Hook Form - React Forms Episode II",
+      title: "React Form Hook - React Forms Episode II",
       url: "https://www.youtube.com/watch?v=0nDGeQKLFjo",
       authorUrl: "https://www.youtube.com/user/jherr2006",
       author: "Jack Herrington",
@@ -700,7 +700,7 @@ export default {
     },
     {
       type: "video",
-      title: "Flexible Forms with React Hook Form",
+      title: "Flexible Forms with React Form Hook",
       url: "https://www.youtube.com/watch?v=hHXzchWLoqw",
       authorUrl: "https://www.youtube.com/user/jherr2006",
       author: "Jack Herrington",
@@ -710,7 +710,7 @@ export default {
     },
     {
       type: "video",
-      title: "Expando Forms in React Hook Form",
+      title: "Expando Forms in React Form Hook",
       url: "https://www.youtube.com/watch?v=kh27J3nI_oY",
       authorUrl: "https://www.youtube.com/user/jherr2006",
       author: "Jack Herrington",
@@ -730,47 +730,47 @@ export default {
     },
     {
       type: "video",
-      title: "Easy Way of Form Validation with React Hook Form",
+      title: "Easy Way of Form Validation with React Form Hook",
       url: "https://www.youtube.com/watch?v=oXY_sSfjlSw",
       authorUrl: "https://www.youtube.com/channel/UCS3-MF_4ADqglU2OSly4vIw",
       author: "For Those Who Code",
       description:
-        "In this video we will cover basics on how to validate form fields in React with React hook forms which is performant and really easy library to use.",
+        "In this video we will cover basics on how to validate form fields in React with React Form Hooks which is performant and really easy library to use.",
       version: "6",
     },
     {
       type: "video",
       title:
-        "React Hook Form で簡単にフォームバリデーション: TypeScriptでReact.js入門#07",
+        "React Form Hook で簡単にフォームバリデーション: TypeScriptでReact.js入門#07",
       url: "https://www.youtube.com/watch?v=jpkHSn6SRLU",
       authorUrl: "https://www.youtube.com/channel/UCcDY8GkKPSOK_6frk9zZuHA",
       author: "WEBOTV / WEBプログラム学習チャンネル",
       description:
-        "TypeScriptでReact.js入門をする講座 第7回目です。 今回はReact Hook Formというライブラリを使用して入力フォームのチェック（バリデーション）を設定する方法をご紹介します。",
+        "TypeScriptでReact.js入門をする講座 第7回目です。 今回はReact Form Hookというライブラリを使用して入力フォームのチェック（バリデーション）を設定する方法をご紹介します。",
       version: "6",
     },
     {
       type: "video",
-      title: "Make React Forms EASY with React Hook Form!",
+      title: "Make React Forms EASY with React Form Hook!",
       url: "https://www.youtube.com/watch?v=oSIHZ9zKzVA",
       authorUrl: "https://www.youtube.com/channel/UC5KDiSAFxrDWhmysBcNqtMA",
       author: "Eric Murphy",
       description:
-        "Are you tired of the slow, painful process of setting up forms in React, building out form state, validation, errors, and more? Worry no more! With React Hook Form, create forms in a matter of minutes! It'll be the easiest, fastest way you've ever built a form in React! Replace your old, boring",
+        "Are you tired of the slow, painful process of setting up forms in React, building out form state, validation, errors, and more? Worry no more! With React Form Hook, create forms in a matter of minutes! It'll be the easiest, fastest way you've ever built a form in React! Replace your old, boring",
       version: "6",
     },
     {
       type: "video",
-      title: "How to test react hook form using react testing library",
+      title: "How to test React Form Hook using react testing library",
       url: "https://www.youtube.com/watch?v=hP0h2P3BdEE",
       authorUrl: "https://www.youtube.com/user/satansdeer1",
       author: "Maksim Ivanov",
-      description: "How to test react hook form using react testing library:",
+      description: "How to test React Form Hook using react testing library:",
       version: "6",
     },
     {
       type: "video",
-      title: "React Hook Form Tutorial - How to Create a Custom Input",
+      title: "React Form Hook Tutorial - How to Create a Custom Input",
       url: "https://www.youtube.com/watch?v=bQRIBpKN8-s",
       authorUrl: "https://www.youtube.com/user/satansdeer1",
       author: "Maksim Ivanov",
@@ -780,7 +780,7 @@ export default {
     },
     {
       type: "video",
-      title: "How To Upload Files Using React Hook Form",
+      title: "How To Upload Files Using React Form Hook",
       url: "https://www.youtube.com/watch?v=XlAs-Lid-TA",
       authorUrl: "https://www.youtube.com/user/satansdeer1",
       author: "Maksim Ivanov",
@@ -790,18 +790,18 @@ export default {
     },
     {
       type: "video",
-      title: "Using React Hook Form with Ionic React Components",
+      title: "Using React Form Hook with Ionic React Components",
       url: "https://www.youtube.com/watch?v=5MsXpmh3Un8",
       authorUrl: "https://www.youtube.com/channel/UCMCcqbJpyL3LAv3PJeYz2bg",
       author: "Aaron Saunders",
       description:
-        "Using React Hook Form with Ionic Framework React Components - this is based on the blog post",
+        "Using React Form Hook with Ionic Framework React Components - this is based on the blog post",
       version: "6",
     },
     {
       type: "video",
       title:
-        "React Hook Form Talk and Demo by its Author Bill Luo aka@bluebill1049",
+        "React Form Hook Talk and Demo by its Author Bill Luo aka@bluebill1049",
       url: "https://www.youtube.com/watch?v=fpwnCGgc9A8",
       authorUrl: "https://www.youtube.com/channel/UCorlLn2oZfgOJ-FUcF2eZ1A",
       author: "ReactEurope",
@@ -810,7 +810,7 @@ export default {
     },
     {
       type: "video",
-      title: "#04 Curso de React Hooks [ React Hook Form ]",
+      title: "#04 Curso de React Hooks [ React Form Hook ]",
       url: "https://www.youtube.com/watch?list=PLPl81lqbj-4KswGEN6o4lF0cscQalpycD&v=wgutyeQTGDA",
       authorUrl: "https://www.youtube.com/user/Bluuweb",
       author: "Bluuweb !",
@@ -820,7 +820,7 @@ export default {
     {
       type: "video",
       title:
-        "Does this library make Redux Form obsolete? | React Hook Form Tutorial | React Tutorials",
+        "Does this library make Redux Form obsolete? | React Form Hook Tutorial | React Tutorials",
       url: "https://www.youtube.com/watch?v=lHclVxcborY",
       authorUrl: "https://www.youtube.com/channel/UCTD_PLq3KAUwkIIs9fk3pAA",
       author: "Better Coding Academy",
@@ -830,41 +830,41 @@ export default {
     {
       type: "video",
       title:
-        "React Hook Form File Upload Tutorial - Upload Files to NodeJS API",
+        "React Form Hook File Upload Tutorial - Upload Files to NodeJS API",
       url: "https://www.youtube.com/watch?v=PEGUFi9Sx-U",
       authorUrl: "https://www.youtube.com/user/satansdeer1",
       author: "Maksim Ivanov",
       description:
-        "React Hook Form tutorial on how to upload files to an ExpressJS API.",
+        "React Form Hook tutorial on how to upload files to an ExpressJS API.",
       version: "6",
     },
     {
       type: "video",
-      title: "How to Validate File Uploads With React Hook Form",
+      title: "How to Validate File Uploads With React Form Hook",
       url: "https://www.youtube.com/watch?v=tYGTjxhzrqY",
       authorUrl: "https://www.youtube.com/user/satansdeer1",
       author: "Maksim Ivanov",
       description:
-        "In this video I show how to validate the file field in React using Yup and React Hook Form.",
+        "In this video I show how to validate the file field in React using Yup and React Form Hook.",
       version: "6",
     },
     {
       type: "video",
-      title: "React Hook Form - Dependent Fields Using Watch",
+      title: "React Form Hook - Dependent Fields Using Watch",
       url: "https://www.youtube.com/watch?v=vNrUPktDT7o",
       authorUrl: "https://www.youtube.com/user/satansdeer1",
       author: "Maksim Ivanov",
-      description: "How to implement dependent fields using react hook form.",
+      description: "How to implement dependent fields using React Form Hook.",
       version: "6",
     },
     {
       type: "video",
-      title: "Multi Step Wizard Form Using React Hook Form and Redux Toolkit",
+      title: "Multi Step Wizard Form Using React Form Hook and Redux Toolkit",
       url: "https://www.youtube.com/watch?v=evDxlqnsxXc",
       authorUrl: "https://www.youtube.com/user/satansdeer1",
       author: "Maksim Ivanov",
       description:
-        "We'll use Redux Toolkit and React Hook Form to create a multi step react form to order pizza.",
+        "We'll use Redux Toolkit and React Form Hook to create a multi step react form to order pizza.",
       version: "6",
     },
     {
@@ -889,22 +889,22 @@ export default {
     {
       type: "video",
       title:
-        "How to use React Hook Form with Material UI (and every other external library)",
+        "How to use React Form Hook with Material UI (and every other external library)",
       url: "https://www.youtube.com/watch?v=NxYUYcGBaOI",
       authorUrl: "https://www.youtube.com/channel/UC5KDiSAFxrDWhmysBcNqtMA",
       author: "Eric Murphy",
       description:
-        "Adding in fields from external libraries isn't as easy as just copy & pasting it in with React Hook Form. Here's how to add external libraries like Material UI,  Ant Design, react-datepicker, react-select, and more with React Hook Form's Controller element. Also, how to fix stupid bugs with the Controller since React Hook Form v6.",
+        "Adding in fields from external libraries isn't as easy as just copy & pasting it in with React Form Hook. Here's how to add external libraries like Material UI,  Ant Design, react-datepicker, react-select, and more with React Form Hook's Controller element. Also, how to fix stupid bugs with the Controller since React Form Hook v6.",
       version: "6",
     },
     {
       type: "video",
-      title: "Tutorial React Hook Form 🇮🇩",
+      title: "Tutorial React Form Hook 🇮🇩",
       url: "https://www.youtube.com/watch?v=oYvMYV05kzo",
       authorUrl: "https://www.youtube.com/user/sastranababan",
       author: "Sastra Nababan",
       description:
-        "Di video kita mencoba intergrasi library react hook form dengan register form.",
+        "Di video kita mencoba intergrasi library React Form Hook dengan register form.",
       version: "6",
     },
   ],
@@ -914,7 +914,7 @@ export default {
       url: "https://zerotomastery.io/blog/web-developer-monthly-october-2019/",
       title: "Zero to Mastery",
       description:
-        "Forms with React just got simpler with React Hook Form. Make sure you scroll to the bottom to see code comparison with the alternatives. Really neat!",
+        "Forms with React just got simpler with React Form Hook. Make sure you scroll to the bottom to see code comparison with the alternatives. Really neat!",
     },
     {
       type: "newsletter",
@@ -949,7 +949,7 @@ export default {
       url: "https://syndicode.com/2019/10/30/monthly-most-popular-js-repositories-evolve-and-prosper/",
       title: "Monthly most popular JavaScript repositories",
       description:
-        "React Hook Form stands for React hooks for forms validation. Performant, flexible and extensible forms with easy to use for validation.",
+        "React Form Hook stands for React hooks for forms validation. Performant, flexible and extensible forms with easy to use for validation.",
     },
     {
       type: "newsletter",
@@ -977,41 +977,41 @@ export default {
     {
       type: "binding",
       url: "https://github.com/aranlucas/react-hook-form-mantine",
-      title: "Mantine React Hook Form bindings",
+      title: "Mantine React Form Hook bindings",
       description:
         "A wrapper around Mantine input components to use with react-hook-form.",
     },
     {
       type: "binding",
       url: "https://www.npmjs.com/package/react-hook-form-mui",
-      title: "MUI React Hook Form bindings",
+      title: "MUI React Form Hook bindings",
       description:
         "This project simplifies the use of react-hook-form and Material-UI.",
     },
     {
       type: "binding",
       url: "https://github.com/crhistianramirez/react-hook-form-chakra#readme",
-      title: "Chakra React Hook Form bindings",
+      title: "Chakra React Form Hook bindings",
       description: "Chakra UI bindings for react-hook-form",
     },
     {
       type: "binding",
       url: "https://github.com/jsun969/react-hook-form-antd",
-      title: "Ant Design React Hook Form binding",
+      title: "Ant Design React Form Hook binding",
       description:
-        "A component to use React Hook Form instead of Ant Design form",
+        "A component to use React Form Hook instead of Ant Design form",
     },
     {
       type: "binding",
       url: "https://ui.shadcn.com/docs/forms/react-hook-form",
-      title: "Building forms with React Hook Form and Zod",
+      title: "Building forms with React Form Hook and Zod",
       description:
         "Beautifully designed components that you can copy and paste into your apps. Accessible. Customizable. Open Source",
     },
     {
       type: "binding",
       url: "https://github.com/vtex/react-hook-form-jsonschema",
-      title: "React Hook Form Jsonschema",
+      title: "React Form Hook Jsonschema",
       description:
         "Small project based on react-hook-form that exposes an API for easily creating customizable forms based on a JSON Schema with built-in validation.",
     },

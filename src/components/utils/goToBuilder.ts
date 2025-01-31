@@ -1,5 +1,5 @@
 export default function goToBuilder(toggle = true) {
-  const title = " | React hook form - Simple React form validation"
+  const title = " | React Form Hook - Simple React form validation"
 
   if (toggle) {
     document.title = `Form Builder${title}`
