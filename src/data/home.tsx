@@ -4,8 +4,9 @@ export default {
   title: "React Form Hook - performant, flexible and extensible form library",
   description: "Just like React Form Hook, just with a name that makes sense",
 
-  slogan:
-    "Performant, flexible and extensible forms with easy-to-use validation. Everything you know from React Form Hook, but with a name makes sense.",
+  slogan: (
+    <p className={typographyStyles.homeParagraph}>Performant, flexible and extensible forms with easy-to-use validation. Everything you know from <a href="https://react-hook-form.com">React Hook Form</a>, but with a name makes sense.</p>
+  ),
   getStarted: "Get Started",
   demo: "Demo",
   findInteresting: {
