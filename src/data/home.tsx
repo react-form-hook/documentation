@@ -5,7 +5,7 @@ export default {
   description: "Just like React Form Hook, just with a name that makes sense",
 
   slogan: (
-    <p className={typographyStyles.homeParagraph}>Performant, flexible and extensible forms with easy-to-use validation. Everything you know from <a href="https://react-hook-form.com">React Hook Form</a>, but with a name makes sense.</p>
+    <p className={typographyStyles.homeParagraph}>Performant, flexible and extensible forms with easy-to-use validation. Everything you know from <a href="https://react-hook-form.com">React Hook Form</a>, but with a name that makes sense.</p>
   ),
   getStarted: "Get Started",
   demo: "Demo",
