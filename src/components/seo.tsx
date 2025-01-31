@@ -19,6 +19,7 @@ function SEO({ title, description }: { title: string; description?: string }) {
   return (
     <Head>
       <title>{title || site.siteMetadata.title}</title>
+      <link rel="canonical" href="https://react-hook-form.com"></link>
       <meta
         property="description"
         content={metaDescription}
@@ -26,7 +27,7 @@ function SEO({ title, description }: { title: string; description?: string }) {
       />
       <meta
         name="twitter:description"
-        content="Performant, flexible and extensible forms with easy-to-use validation."
+        content="Performant, flexible and extensible forms with easy-to-use validation. But a name that makes sense"
       ></meta>
       <meta name="twitter:creator" content={site.siteMetadata.author}></meta>
       <meta

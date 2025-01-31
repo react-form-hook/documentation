@@ -35,6 +35,7 @@ function App({ Component, pageProps }: AppProps) {
     <>
       <Head>
         <title>React Form Hook - Simple React forms validation</title>
+        <link rel="canonical" href="https://react-hook-form.com"></link>
         <meta
           name="viewport"
           content="minimum-scale=1, initial-scale=1, width=device-width"
